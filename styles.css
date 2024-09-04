@@ -67,16 +67,17 @@ a {
 .logo_text {
     justify-content: center;
     align-content: center;
-    background-color: rgb(143, 143, 143);
+    background-color: #1f2937;
     font-size: 24;
     color: #f9faf8;
-    padding: 100px;
 
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    border: #3882f6;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
 
   }
   
