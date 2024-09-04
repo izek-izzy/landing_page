@@ -55,13 +55,13 @@ a {
     color: #e5e7eb;
 }
 
-button {
+.hero_button button{
     background-color: #3882f6;
     font-weight: bold;
     color: white;
     padding: 8px 16px;
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .logo_text {
@@ -73,3 +73,75 @@ button {
     padding: 100px;
 
 }
+
+img {
+    width: 100px;
+    height: 100px;
+
+  }
+  
+  .title {
+    align-self: center;
+    font-size: 36px;
+    font-weight:bolder;
+    margin: 32px;
+    color: #1f2937;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  
+  }
+  
+  .info {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 100px;
+  }
+
+  .quote .text {
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+   
+
+  }
+
+  .quote .author {
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+  }
+
+  .sign_up{
+    padding: 100px;
+  }
+
+  .header_text {
+    align-content: center;
+    justify-content: center ;
+    background-color:#3882f6;
+    padding: 50px;
+    border-radius:12px;
+    
+  }
+
+  .signup_text {
+    display: flex;
+    gap: 100px;
+  }
+
+  .signup_button {
+    border-color:white;
+    border-width: 2px;
+  }
+
+  
