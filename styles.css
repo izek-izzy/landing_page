@@ -12,7 +12,8 @@
 .logo {
     justify-content: left;
     align-items: center;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-weight:bolder ;
 }
 
 .links {
@@ -64,17 +65,17 @@ a {
     border-radius: 5px;
 }
 
-.logo_text {
+.logo_text img{
+    width: 300px;
     justify-content: center;
     align-content: center;
     background-color: #1f2937;
-    font-size: 24;
-    color: #f9faf8;
 
 }
 
+
 img {
-    border: #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 12px;
     width: 200px;
     height: 200px;
@@ -146,7 +147,7 @@ img {
 
   .signup_button button {
     background-color: #3882f6;
-    border-color:#f9faf8;
+    border:2px solid #f9faf8;
     color: #f9faf8;
     padding: 8px 16px;
     border-radius: 5px;
