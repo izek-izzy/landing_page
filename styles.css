@@ -12,7 +12,7 @@
 .logo {
     justify-content: left;
     align-items: center;
-    color: white;
+    color: #f9faf8;
 }
 
 .links {
@@ -58,7 +58,7 @@ a {
 .hero_button button{
     background-color: #3882f6;
     font-weight: bold;
-    color: white;
+    color: #f9faf8;
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
@@ -122,26 +122,34 @@ img {
   }
 
   .sign_up{
-    padding: 100px;
+    padding: 100px 150px;
   }
 
   .header_text {
-    align-content: center;
-    justify-content: center ;
+    
     background-color:#3882f6;
-    padding: 50px;
+    padding: 50px 100px;
     border-radius:12px;
+    font-size: 24px;
+    color:#f9faf8;
     
   }
 
   .signup_text {
     display: flex;
-    gap: 100px;
+    gap: 200px;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+
+  .signup_button button {
+    background-color: #3882f6;
+    border-color:#f9faf8;
+    color: #f9faf8;
+    padding: 8px 16px;
+    border-radius: 5px;
   }
 
-  .signup_button {
-    border-color:white;
-    border-width: 2px;
-  }
 
   
